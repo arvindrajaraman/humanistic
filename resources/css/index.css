@@ -1,0 +1,98 @@
+.brand-homepage{
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  padding-bottom:0px;
+}
+
+.navbar{
+  background-color: rgba(248,248,248,0.9);
+}
+
+blockquote{
+  margin:0px !important;
+  border-width: 0px 0px 0px 5px !important;
+  border-style: solid;
+  /* border-color: #1e1e1e47; */
+  border-color: rgb(119,119,119);
+  /* padding:0px !important; */
+}
+
+body{
+  /* background:url('../files/web/index/back_w.gif'); */
+  background-color: rgb(36,36,36);
+  background:url('../files/web/index/back_b.gif');
+  background-position: left top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #eee;
+}
+
+.brand-container-homepage{
+  line-height: 0px;
+}
+
+.tile{
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+  border-radius: 5px;
+  /* box-shadow: 4px 4px 10px #eee; */
+  box-shadow: 4px 4px 10px #000;
+  transition: transform 0.2s ease-in-out;
+}
+
+.tile-content{
+  width:100%;
+  height: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  opacity: 1;
+  transition: transform 0.2s ease-in-out,opacity 0.2s ease-in-out;
+}
+
+.tile-content:hover{
+  transform:scale(1.03);
+  opacity: 0.9;
+}
+
+.projects-tile{
+  background:url('../files/web/index/tile_project.gif');
+  background-position: left top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.projects-tile-content{
+  background: rgb(57,135,255);
+  background: linear-gradient(318deg, rgba(57,135,255,1) 0%, rgba(143,99,255,1) 100%);
+  color:#fff;
+}
+
+.workshops-tile{
+  background:url('../files/web/index/tile_workshop.gif');
+  background-position: left top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.workshops-tile-content{
+  background-color: #ff983b;
+  background-image: linear-gradient(147deg, #ff983b 0%, #ff5e25 74%);
+  color:#fff;
+}
+
+.about-tile{
+  /* background:url('../files/web/index/tile_workshop.gif'); */
+  /* background-position: left top;
+  background-size: cover;
+  background-repeat: no-repeat; */
+}
+
+.about-tile-content{
+  background: #C0DB64;
+  /* #13996e */
+  background-image: linear-gradient(147deg, #C0DB64, #6aba69);
+  color: #fff;
+}

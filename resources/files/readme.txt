@@ -1,0 +1,1 @@
+This folder stores resources like images, videos and other attachments

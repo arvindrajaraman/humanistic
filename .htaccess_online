@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://humanistic.app/$1 [R,L]
+RewriteRule ^community/([^/]*)$ /active/profile.php?username=$1 [L]

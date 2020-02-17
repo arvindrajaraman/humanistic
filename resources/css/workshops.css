@@ -1,0 +1,54 @@
+#new-workshop{
+  display:none;
+}
+
+.workshop-name{
+  margin-top:0px;
+}
+
+body{
+  /* background:url('../files/web/index/back_w.gif'); */
+  /* background:url('../files/web/index/back_b.gif'); */
+  background-position: left top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-color: #ff983b; */
+  background-image: linear-gradient(147deg, #ff983b 0%, #ff5e25 74%);
+}
+
+#payment-area{
+  max-width: 250px;
+}
+
+.well{
+  /* background-color: #ff983b; */
+  /* background-image: linear-gradient(147deg, #ff983b 0%, #ff5e25 74%); */
+  /* background-color: rgb(70,70,70); */
+  /* color:#fff; */
+}
+
+a{
+  /* color: #fff; */
+  text-decoration: none !important;
+}
+
+button{
+  /* background: #eee !important;
+  color: rgb(36,36,36); */
+}
+
+.post-fmedia-workshop img{
+  border-radius: 4px;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.post-fmedia-workshop iframe {
+  border-radius: 4px;
+  max-width: 100%;
+}
+
+.post-fmedia-workshop video {
+  border-radius: 4px;
+  max-width: 100%;
+}

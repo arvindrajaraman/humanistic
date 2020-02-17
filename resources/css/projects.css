@@ -1,0 +1,48 @@
+#new-project{
+  display:none;
+}
+
+.project-name{
+  margin-top: 0px !important;
+}
+
+body{
+  /* background: rgb(57,135,255); */
+  background-image: linear-gradient(318deg, rgba(57,135,255,1) 0%, rgba(143,99,255,1) 100%);
+}
+
+#loading-div{
+  position:fixed;
+  top:0px;
+  left:0px;
+  z-index: 5;
+  width: 100vw;
+  height:100vh;
+  background-color: rgba(0,0,0,0.5);
+  text-align: center;
+  display: table;
+}
+
+#loading-div-content{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.positing-project{
+  font-weight: bold;
+}
+
+.available_position{
+  background-color: rgb(240,240,240);
+  padding:10px;
+  border-radius: 5px;
+}
+
+.grid-item-recruitment-wall {
+  width: 350px;
+  padding:5px;
+}
+
+.grid-recruitment-wall input, select, textarea{
+  width:100%;
+}

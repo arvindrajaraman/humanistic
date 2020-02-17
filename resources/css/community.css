@@ -1,0 +1,19 @@
+.team_member, .available_position{
+  background-color: rgb(240,240,240);
+  padding:10px;
+  border-radius: 5px;
+}
+
+.team_member input[type="text"]{
+  width: 100%;
+}
+
+.grid-item {
+  width: 175px;
+  padding:5px;
+}
+
+.grid-item-recruitment-wall {
+  width: 350px;
+  padding:5px;
+}

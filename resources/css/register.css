@@ -1,0 +1,19 @@
+.form-control{
+
+}
+
+.form-group{
+  padding-left: 0px !important;
+}
+
+.registrant-name{
+  margin-top: 0px !important;
+}
+
+.registant-notify input[type="text"], textarea{
+  width: 100%;
+}
+
+.registant-notify textarea{
+  height: 70px;
+}
